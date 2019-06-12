@@ -294,7 +294,7 @@
                       <option name="name" value="Make a coffee" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/machine/CoffeeMachine.java">
@@ -303,7 +303,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/machine/CoffeeMachine.java" />
                                 <option name="text" value="package machine;&#10;&#10;public class CoffeeMachine {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
