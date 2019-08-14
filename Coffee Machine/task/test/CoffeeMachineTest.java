@@ -173,11 +173,12 @@ public class CoffeeMachineTest extends BaseStageTest<TestClue> {
         List<Integer> money = new ArrayList<>();
 
         for (String line : lines) {
+            line = line.replace("$", "").trim();
             String[] words = line.split("\\s+");
             if (words.length == 0) {
                 continue;
             }
-            String firstWord = words[0].replace("$", "");
+            String firstWord = words[0];
             int amount;
             try {
                 amount = Integer.parseInt(firstWord);
