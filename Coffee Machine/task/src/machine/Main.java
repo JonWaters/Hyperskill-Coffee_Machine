@@ -1,7 +1,7 @@
 package machine;
 import java.util.*;
 
-public class CoffeeMachine {
+public class Main {
     private static Scanner scanner;
     private static HashMap<String, Integer> machineResources;
     private static HashMap<String, Integer> espressoResources;
